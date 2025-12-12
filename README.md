@@ -1,3 +1,6 @@
+CISA has observed cyber threat actors leveraging unencrypted persistent cookies managed by the F5 BIG-IP Local Traffic Manager (LTM) module to enumerate other non-internet facing devices on the network. F5 BIG-IP is a suite of hardware and software solutions designed to manage and secure network traffic. A malicious cyber actor could leverage the information gathered from unencrypted persistence cookies to infer or identify additional network resources and potentially exploit vulnerabilities found in other devices present on the network.  
+CISA urges organizations to encrypt persistent cookies employed in F5 BIG-IP devices and review the following article for details on how to configure the BIG-IP LTM system to encrypt HTTP cookies. Additionally, F5 has developed an iHealth heuristic to detect and alert customers when cookie persistence profiles do not have encryption enabled. BIG-IP iHealth is a diagnostic tool that "evaluates the logs, command output, and configuration of a BIG-IP system against a database of known issues, common mistakes, and published F5 best practices" to help users verify the optimal operation of their BIG-IP systems.
+
 # 📘 F5 Knowledge Base Article Reference Repository
 
 This repository contains structured references for key F5 BIG-IP Knowledge Base articles related to:
