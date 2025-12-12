@@ -50,7 +50,7 @@ links.md     – Official F5 article links
 | **K14784** | Configuring cookie encryption within the HTTP profile on LTM |
 | **K000150090** | Configuring cookie encryption within the HTTP profile on LTM |
 | **K93240866** | Configuring the Secure attribute flag for the DoSL7 Proactive Bot Defense or Bot Defense Browser Verification cookie on BIG-IP ASM systems |
-! **K15387** | Overview of BIG-IP APM session cookies | 
+| **K15387** | Overview of BIG-IP APM session cookies | 
 | **K51710370** | Setting the 'secure' attribute for BIG-IP ASM cookie in non-HTTPS response  |
 
 
