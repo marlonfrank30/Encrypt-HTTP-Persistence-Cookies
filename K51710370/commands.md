@@ -1,5 +1,5 @@
 # K51710370 — Commands
-1.Log in to bash
+1.Log in to bash <br>
 2.To enable the assume_https parameter, type the following command:
 ```
 bash
