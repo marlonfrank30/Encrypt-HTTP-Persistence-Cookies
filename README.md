@@ -89,8 +89,6 @@ https://my.f5.com/manage/s/article/K51710370
 You may contribute by adding:
 
 - Additional F5 Knowledge articles  
-- Troubleshooting workflows  
-- Automation examples (iCall, REST, Ansible, Terraform)  
 - Operational notes  
 
 ---
