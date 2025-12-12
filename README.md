@@ -9,7 +9,8 @@ This repository contains structured references for key F5 BIG-IP Knowledge Base 
 
 - Cookie security  
 - HTTP/ASM cookie attributes  
-- Cookie encryption  
+- Cookie encryption
+- BIG-IP session cookies
 - BIG-IP system-level enforcement settings  
 
 It is designed to provide fast access for engineers, field personnel, and automation workflows.
