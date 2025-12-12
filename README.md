@@ -27,6 +27,7 @@ F5-KB-Reference/
 ├── K14784/
 ├── K000150090/
 ├── K93240866/
+├── K15387
 └── K51710370/
 ```
 
@@ -46,10 +47,12 @@ links.md     – Official F5 article links
 | Article | Topic |
 |--------|--------|
 | **K13787** | Configuring the 'secure' and 'HttpOnly' attributes for BIG-IP ASM cookies |
-| **K14784** | Configuring cookie encryption within the HTTP profile |
-| **K000150090** | Configuring cookie encryption within the HTTP profile |
+| **K14784** | Configuring cookie encryption within the HTTP profile on LTM |
+| **K000150090** | Configuring cookie encryption within the HTTP profile on LTM |
 | **K93240866** | Configuring the Secure attribute flag for the DoSL7 Proactive Bot Defense or Bot Defense Browser Verification cookie on BIG-IP ASM systems |
-| **K51710370** | Setting the 'secure' attribute for BIG-IP ASM cookie in non-HTTPS response |
+! **K15387** | Overview of BIG-IP APM session cookies | 
+| **K51710370** | Setting the 'secure' attribute for BIG-IP ASM cookie in non-HTTPS response  |
+
 
 ---
 
@@ -72,16 +75,30 @@ tmsh modify sys db DOSL7.use_secure_cookies value true
 
 ---
 
-## 🔗 Official F5 Article URLs
+## 🔗 References & Resources
 
 ```
 https://my.f5.com/manage/s/article/K13787
 https://my.f5.com/manage/s/article/K14784
 https://my.f5.com/manage/s/article/K000150090
 https://my.f5.com/manage/s/article/K93240866
+https://my.f5.com/manage/s/article/K15387
 https://my.f5.com/manage/s/article/K51710370
 ```
+## Version Information
 
+- **BIG-IP Version Tested:** 17.5.1.3
+- **Purpose:** Comply with Cisas directive available on their website https://www.cisa.gov/news-events/alerts/2024/10/10/best-practices-configure-big-ip-ltm-systems-encrypt-http-persistence-cookies
+
+## License
+
+This project is intended for cookie httponly and secure settings within F5 environments.  
+Use at your own risk and validate in a test environment prior to production deployment.
+
+## Notes
+
+- Requires F5 BIG-IP with LTM module provisioned and some more advanced cases with AWAF as well as APM enabled.
+- Recommended to test changes in a **non-production** setup before deployment.
 ---
 
 ## 🤝 Contributing
@@ -92,7 +109,8 @@ You may contribute by adding:
 - Operational notes  
 
 ---
-
-## 📝 Disclaimer
+## 🧑‍💻 Author
+**Marlon Frank**  
+*Network and Application Security & F5 Automation Engineer*  
 
 This repository is not official F5 documentation—always validate changes in a test environment and reference the official articles when implementing in production.
