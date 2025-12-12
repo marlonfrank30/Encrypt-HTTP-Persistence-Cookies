@@ -85,6 +85,7 @@ https://my.f5.com/manage/s/article/K000150090
 https://my.f5.com/manage/s/article/K93240866
 https://my.f5.com/manage/s/article/K15387
 https://my.f5.com/manage/s/article/K51710370
+https://www.cisa.gov/news-events/alerts/2024/10/10/best-practices-configure-big-ip-ltm-systems-encrypt-http-persistence-cookies
 ```
 ## Version Information
 
