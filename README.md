@@ -45,11 +45,11 @@ links.md     – Official F5 article links
 
 | Article | Topic |
 |--------|--------|
-| **K13787** | Secure & HttpOnly attributes for ASM cookies |
-| **K14784** | Cookie encryption in HTTP profile |
-| **K000150090** | Video guide for cookie encryption |
-| **K93240866** | Secure cookie enforcement via DOSL7.use_secure_cookies |
-| **K51710370** | Secure cookie attribute behavior in non-HTTPS responses |
+| **K13787** | Configuring the 'secure' and 'HttpOnly' attributes for BIG-IP ASM cookies |
+| **K14784** | Configuring cookie encryption within the HTTP profile |
+| **K000150090** | Configuring cookie encryption within the HTTP profile |
+| **K93240866** | Configuring the Secure attribute flag for the DoSL7 Proactive Bot Defense or Bot Defense Browser Verification cookie on BIG-IP ASM systems |
+| **K51710370** | Setting the 'secure' attribute for BIG-IP ASM cookie in non-HTTPS response |
 
 ---
 
