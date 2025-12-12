@@ -89,7 +89,7 @@ https://my.f5.com/manage/s/article/K51710370
 ## Version Information
 
 - **BIG-IP Version Tested:** 17.5.1.3
-- **Purpose:** Comply with Cisas directive available on their website https://www.cisa.gov/news-events/alerts/2024/10/10/best-practices-configure-big-ip-ltm-systems-encrypt-http-persistence-cookies
+- **Purpose:** Comply with CISA's directive available on their website https://www.cisa.gov/news-events/alerts/2024/10/10/best-practices-configure-big-ip-ltm-systems-encrypt-http-persistence-cookies
 
 ## License
 
