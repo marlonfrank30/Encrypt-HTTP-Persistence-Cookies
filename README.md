@@ -90,7 +90,8 @@ https://www.cisa.gov/news-events/alerts/2024/10/10/best-practices-configure-big-
 ## Version Information
 
 - **BIG-IP Version Tested:** 17.5.1.3
-- **Purpose:** Comply with CISA's directive available on their website https://www.cisa.gov/news-events/alerts/2024/10/10/best-practices-configure-big-ip-ltm-systems-encrypt-http-persistence-cookies
+- **Purpose:** Comply with CISA's recommendations available on their website <br>
+https://www.cisa.gov/news-events/alerts/2024/10/10/best-practices-configure-big-ip-ltm-systems-encrypt-http-persistence-cookies
 
 ## License
 
